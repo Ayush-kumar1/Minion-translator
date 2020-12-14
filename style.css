@@ -1,0 +1,54 @@
+#input-txt {
+    width: 30%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#btn {
+    display: block;
+    margin-left: 20px;
+}
+
+#output-txt {
+    width: 30%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("minion4.jpg");
+    /* background-position: right; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    /* background-color: black; */
+}
+
+#topic {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgba(0, 0, 0, 0.644);
+    margin-left: 80px;
+}
+
+#btn {
+    margin-left: 135px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    padding: 2px 7px 2px 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#btn:hover {
+    background-color: gray;
+}
